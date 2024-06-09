@@ -10,31 +10,31 @@ The project addresses this problem by developing an automated system to detect L
                                                 System Overview
 * Arduino Uno serves as the control unit.
 Arduino UNO is a microcontroller board based on the ATmega328P. It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header and a reset button.
-MQ series gas sensor detects LPG levels in the environment.
-Proteus software is used for designing and simulating the circuit.
-Gas sensor library provides essential functions for accurate gas concentration readings and system calibration.
+
+* MQ series gas sensor detects LPG levels in the environment.
+* Proteus software is used for designing and simulating the circuit.
+* Gas sensor library provides essential functions for accurate gas concentration readings and system calibration.
 
   How does it work?
-Detection: The MQ gas sensor continuously measures the LPG concentration.
-Data Processing: The sensor outputs analog signals, which are processed by the Arduino using the gas sensor library to determine the exact gas concentration.
-Alert Mechanism: When LPG levels exceed a predefined threshold, the system triggers visual (LED) and auditory (buzzer) alarms to alert users of the leak.
+* Detection: The MQ gas sensor continuously measures the LPG concentration.
+* Data Processing: The sensor outputs analog signals, which are processed by the Arduino using the gas sensor library to determine the exact gas concentration.
+* Alert Mechanism: When LPG levels exceed a predefined threshold, the system triggers visual (LED) and auditory (buzzer) alarms to alert users of the leak.
+
 By simulating the system in Proteus, the design and functionality can be tested and refined before deployment. This ensures that the LPG Gas Leakage Detector is providing an essential safety measure in environments where LPG is used.
 
 
-                                                Tools and Technologies
+                                            Tools and Technologies
 ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/2ef7b7a3-da55-43a9-9a0c-3c9d1ce84763)
 
 
-                                                     Methodolgies
+                                                 Methodolgies
 
 ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/f2ddff5c-79a0-43c7-8ee0-7fc74234621b)
 
 
 
                                                     Results and Analysis
- ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/76d20c8f-2aa3-4df5-8115-e42e95774edb)
  ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/07dcb269-b87c-4bb3-820b-7c1156a4a5a4)
- ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/44cd5949-f44b-43de-926e-f17f6499c65a)
  ![image](https://github.com/SaiyemRaiyan/LPG-GAS-LEAKAGE-DETECTOR/assets/64364859/b4f95b01-dbd6-402d-8727-50b587fba0e0)
 
 
